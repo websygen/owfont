@@ -111,7 +111,7 @@
   <section id="icons">
     <div class="container-fluid bg">
       <div class="container">
-        <div id="icons" class="row">
+        <div class="row">
           <h2 class="col-xs-12">Icons</h2>
         </div>
       </div>
@@ -721,7 +721,7 @@
     <section id="usage">
       <div class="container-fluid bg">
       <div class="container">
-        <div id="icons" class="row">
+        <div class="row">
           <h2 class="col-xs-12">Usage</h2>
         </div>
       </div>
@@ -764,7 +764,7 @@
           <h4>Examle of PHP usage<br><small>This example has demonstration purpose, you can use various different methods to display the result</small></h4>
           <pre>
 &lt;?php
-  $json_string = 'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139';
+  $json_string = 'http://api.openweathermap.org/data/2.5/weather?lat=35&amp;lon=139';
   $jsondata = file_get_contents($json_string);
   $obj = json_decode($jsondata, true);
 ?&gt;
@@ -774,13 +774,13 @@
           <h4>Examle of PHP usage with day/night versions<br><small>This example is very basic and has demonstration purpose, you can use various different methods to display the result</small></h4>
           <pre>
 &lt;?php
-  $json_string = 'http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139';
+  $json_string = 'http://api.openweathermap.org/data/2.5/weather?lat=35&amp;lon=139';
   $jsondata = file_get_contents($json_string);
   $obj = json_decode($jsondata, true);
   
   $now = date('U'); //get current time
   
-  if($now > $obj['sys']['sunrise'] and $now < $obj['sys']['sunset']){
+  if($now &gt; $obj['sys']['sunrise'] and $now &lt; $obj['sys']['sunset']){
 	$suffix = '-d';
   }else{
 	$suffix = '-n';
@@ -802,7 +802,7 @@
     <section id="css">
       <div class="container-fluid bg">
       <div class="container">
-        <div id="icons" class="row">
+        <div class="row">
           <h2 class="col-xs-12">CSS Helpers</h2>
         </div>
       </div>
@@ -925,7 +925,7 @@ Min 22&deg;C Max 26&deg;C
     <section id="license">
       <div class="container-fluid bg">
       <div class="container">
-        <div id="icons" class="row">
+        <div class="row">
           <h2 class="col-xs-12">License</h2>
         </div>
       </div>
