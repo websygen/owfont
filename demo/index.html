@@ -768,7 +768,7 @@
   $jsondata = file_get_contents($json_string);
   $obj = json_decode($jsondata, true);
 ?&gt;
-&lt;i class="owf owf-&lt;?php echo $obj['cod'];?&gt;"&gt;&lt;/i&gt;
+&lt;i class="owf owf-&lt;?php echo $obj['weather'][0]['id'];?&gt;"&gt;&lt;/i&gt;
           </pre>
           
           <h4>Examle of PHP usage with day/night versions<br><small>This example is very basic and has demonstration purpose, you can use various different methods to display the result</small></h4>
@@ -787,7 +787,7 @@
   }
   
 ?&gt;
-&lt;i class="owf owf-&lt;?php echo $obj['cod'].$suffix;?&gt;"&gt;&lt;/i&gt;
+&lt;i class="owf owf-&lt;?php echo $obj['weather'][0]['id'].$suffix;?&gt;"&gt;&lt;/i&gt;
           </pre>
           
         </div>
