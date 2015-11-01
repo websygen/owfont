@@ -1,0 +1,22 @@
+{
+  "name": "owfont",
+  "homepage": "https://github.com/websygen/owfont",
+  "description": "OpenWeatherMap Font",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "font",
+    "openweathermap"
+  ],
+  "authors": [
+    "Deniz Fuchidzhiev"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
