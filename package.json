@@ -1,0 +1,19 @@
+{
+  "name": "owfont",
+  "version": "1.0.0",
+  "description": "OpenWeatherMap Font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websygen/owfont.git"
+  },
+  "keywords": [
+    "openweathermap",
+    "font"
+  ],
+  "author": "Deniz Fuchidzhiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websygen/owfont/issues"
+  },
+  "homepage": "https://github.com/websygen/owfont#readme"
+}
